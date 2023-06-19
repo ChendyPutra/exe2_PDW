@@ -1,0 +1,37 @@
+body{
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+    background-image: url(https://thumb.tvonenews.com/images/2022/12/05/638de78088daa-festival-budaya-sejuta-rawa.jpg);
+    Color: white;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: black;
+    width: 100px; 
+    height: 30px; 
+    margin-top: 20px;
+    background-color:rgb(0, 128, 255);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  }
+
+body{
+    color:black ;
+    font-weight: bold;
+}
+
+    
+

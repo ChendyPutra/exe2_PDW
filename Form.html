@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+    <title>Document</title>
+
+    <h1>Tiket Festival</h1><br>
+
+</head>
+<body>
+
+    <div class="nama">
+        <label>Nama Anda</label><br>
+        <input type="text" id="nama">
+    </div><br>
+    <div class="tanggal">
+        <label for="tanggal">Tanggal</label><br>
+        <input type="date" id="tanggal" name="tanggal"><br>
+    </div><br>
+    <div class="jumlah tiket">
+        <label for="" id="jt">Jumlah Tiket</label><br>
+        <select name="jumlah tiket" id="">
+            <option value="1">1 Orang</option>
+            <option value="2">2 Orang</option>
+            <option value="3">3 Orang</option>
+            <option value="4">4 Orang</option>
+        </select>
+    </div><br>
+    <div class="form-check">
+        <label for="" id="kategori">Kategori</label><br>
+        <input name="kategori" class="form-check-input" type="radio"  id="ekonomi">
+        <label class="form-check-label" for="flexRadioDefault1" id="Ekonomi">
+          Ekonomi
+        </label>
+      </div>
+      <div class="form-check">
+        <input name="kategori" class="form-check-input" type="radio"  id="vip">
+        <label class="form-check-label" for="flexRadioDefault2" id="vip">
+          VIP
+        </label> 
+    </div>
+    <div class="form-check">
+        <input name="kategori" class="form-check-input" type="radio"  id="vvip">
+        <label class="form-check-label" for="flexRadioDefault2" id="vvip">
+          VVIP
+        </label> 
+    </div>
+
+    <button type="submit" onclick="uploaddata()">Upload</button>
+    
+</body>
+</html>
